@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <title>התראות פיקוד העורף (צבע אדום)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>התראות פיקוד העורף</h1>
+        <p>מערכת זו מציגה התרעות "צבע אדום" בזמן אמת.</p>
+        <div id="alerts"></div>
+    </div>
+
+    <script src="js/redalert/newver.js"></script>
+</body>
+</html>

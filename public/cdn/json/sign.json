@@ -1,0 +1,18 @@
+[
+    {
+        "question": "מה פירוש התמרור?",
+        "image": "https://m.noeg.co.il/img/questions/3464.jpg",
+        "choices": ["Paris", "London", "Berlin", "Rome"],
+        "correctAnswer": 1
+    },
+    {
+        "question": "Who wrote 'Romeo and Juliet'?",
+        "choices": ["William Shakespeare", "Charles Dickens", "Jane Austen", "Mark Twain"],
+        "correctAnswer": 0
+    },
+    {
+        "question": "What is the chemical symbol for water?",
+        "choices": ["H2O", "CO2", "NaCl", "O2"],
+        "correctAnswer": 0
+    }
+]

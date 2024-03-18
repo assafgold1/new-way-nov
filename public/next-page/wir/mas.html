@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>אתר משוב</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>אתר משוב</h1>
+    </header>
+    <main>
+        <section>
+            <h2>השאירו משוב</h2>
+            <form id="feedback-form">
+                <textarea id="feedback" placeholder="כתבו את המשוב שלכם כאן"></textarea>
+                <button type="submit">שליחה</button>
+            </form>
+        </section>
+        <section>
+            <h2>משובים קודמים</h2>
+            <ul id="feedback-list">
+                <li>
+                    <span class="rating">
+                        <button class="star">&#9733;</button>
+                        <button class="star">&#9733;</button>
+                        <button class="star">&#9733;</button>
+                        <button class="star">&#9733;</button>
+                        <button class="star">&#9733;</button>
+                    </span>
+                    תוכן המשוב כאן
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "my-node-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "assaf",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}

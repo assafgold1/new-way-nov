@@ -1,0 +1,41 @@
+/* Reset default margin and padding */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set Hebrew text direction */
+  html {
+    direction: rtl;
+  }
+  
+  /* Body styles */
+  body {
+    font-family: "Ubuntu", sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  /* Link styles */
+  a {
+    color: blue;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 5px;
+  }
+  
+  a:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  /* Iframe styles */
+  iframe {
+    width: 100%;
+    max-width: 800px;
+    height: 450px;
+    margin: 0 auto;
+    display: block;
+  }
+  

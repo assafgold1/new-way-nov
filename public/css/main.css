@@ -1,0 +1,200 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set RTL direction for Hebrew text */
+html, body {
+  direction: rtl;
+}
+
+/* Header styles */
+header {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+/* Container styles */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Video section */
+#videos {
+  margin-bottom: 20px;
+}
+
+#videos ul {
+  list-style-type: none;
+}
+
+#videos ul li {
+  margin-bottom: 10px;
+}
+
+/* Image gallery section */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-container {
+  flex-basis: calc(33.33% - 20px);
+  margin-bottom: 20px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+/* Link styles */
+a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Dark mode styles */
+.dark-mode body {
+  background-color: #333333;
+  color: #ffffff;
+}
+
+.dark-mode .container {
+  background-color: #222222;
+}
+
+.dark-mode footer {
+  background-color: #666666;
+}
+
+/* Dark mode button styles */
+.dark-mode-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+html,
+body,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set Hebrew text direction */
+html {
+  direction: rtl;
+}
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+}
+
+.header a.logo img {
+  width: 50px;
+  height: auto;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Container styles */
+.container {
+  margin: 20px;
+}
+
+/* Section styles */
+section {
+  margin: 20px;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Image gallery styles */
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.image-container {
+  margin-bottom: 20px;
+}
+
+.image-text {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.image-text img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .header a.logo {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header {
+    padding: 10px;
+  }
+
+  .header a {
+    font-size: 16px;
+    margin-right: 10px;
+  }
+}
